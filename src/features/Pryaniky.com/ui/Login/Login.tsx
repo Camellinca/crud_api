@@ -33,7 +33,7 @@ export const Login = () => {
         }
         return errors;
     };
-    const initialValues = { login: '', password: 'password' };
+    const initialValues = { login: '', password: '' };
 
     return (
         <>
