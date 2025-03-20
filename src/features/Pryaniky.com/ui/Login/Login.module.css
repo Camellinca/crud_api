@@ -1,0 +1,101 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+
+.container div {
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container input {
+    padding: 7px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    width: 60%;
+    min-width: 360px;
+    border-radius: 5px;
+    background-color: azure;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .input_requied {
+    background-color: #ffe2e2;
+}
+
+.container .input_validated {
+    background-color: #e6ffe2;
+}
+
+.container textarea {
+    min-height: 84px;
+    background-color: #ffffff;
+}
+.button {
+    display: block;
+    background-color: darkblue;
+    color: white;
+    border-radius: 10px;
+    width: 140px;
+    padding: 10px 10px 10px 10px;
+    margin: 15px;
+    border: 0;
+    font-size: 18px;
+}
+.button:hover {
+    background-color: rgb(85, 215, 255);
+    color: black;
+}
+@media (max-width: 480px) {
+    .container {
+        height: auto;
+    }
+    .container div {
+        margin: 0;
+        width: 100%;
+    }
+    .container input {
+        width: 90%;
+        min-width: 0;
+        margin: 0;
+    }
+    .button {
+        display: block;
+        background-color: darkblue;
+        color: white;
+        border-radius: 10px;
+        width: 30%;
+        padding: 8px;
+        margin: 10px;
+        border: 0;
+        font-size: 14px;
+    }
+}
+
+.loader {
+    width: 16px;
+    height: 16px;
+    border: 2px solid;
+    border-color: #ffffff transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+}
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

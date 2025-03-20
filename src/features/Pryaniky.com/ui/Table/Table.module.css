@@ -1,0 +1,45 @@
+.controlButtons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+.button {
+    display: block;
+    background-color: rgb(25, 83, 119);
+    color: white;
+    border-radius: 10px;
+    width: 140px;
+    padding: 10px 10px 10px 10px;
+    border: 0;
+    font-size: 18px;
+}
+.button:hover {
+    background-color: rgb(42, 150, 216);
+    color: black;
+}
+
+.table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+.table td,
+.table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table tr:hover {
+    background-color: #ddd;
+}
+.table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(36, 128, 186);
+    color: white;
+}

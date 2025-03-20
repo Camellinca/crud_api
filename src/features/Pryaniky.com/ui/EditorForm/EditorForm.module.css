@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.container label {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    grid-template-columns: 1fr 400px;
+}
+.container input {
+    padding: 7px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    width: 60%;
+    min-width: 360px;
+    border-radius: 5px;
+    background-color: azure;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.container .unvalidated {
+    background-color: rgb(255, 203, 203);
+}
+.button_container {
+    display: flex;
+    gap: 10px;
+}
+.button {
+    display: block;
+    background-color: rgb(25, 83, 119);
+    color: white;
+    border-radius: 10px;
+    width: 140px;
+    padding: 10px 10px 10px 10px;
+    border: 0;
+    font-size: 18px;
+}
+.button:hover {
+    background-color: rgb(42, 150, 216);
+    color: black;
+}

@@ -1,0 +1,24 @@
+.errortoast {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    background-color: rgba(146, 39, 39, 0.742);
+    color: beige;
+    font-weight: 600;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    border: 4px solid rgb(100, 100, 100);
+    font-size: 16px;
+}
+.errortoast p {
+    margin: 0px;
+}
+
+.hidden {
+    display: none;
+}
+
+.errortoast p:first-child {
+    font-weight: 700;
+    font-size: 18px;
+}
