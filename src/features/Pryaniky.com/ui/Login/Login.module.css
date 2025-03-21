@@ -23,6 +23,7 @@
     min-width: 360px;
     border-radius: 5px;
     background-color: azure;
+    color: black;
     margin: 10px;
     display: flex;
     flex-direction: column;
@@ -36,10 +37,6 @@
     background-color: #e6ffe2;
 }
 
-.container textarea {
-    min-height: 84px;
-    background-color: #ffffff;
-}
 .button {
     display: block;
     background-color: darkblue;

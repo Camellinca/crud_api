@@ -1,7 +1,3 @@
 {
-    "rewrites": [
-        { "source": "/create", "destination": "/create" },
-        { "source": "/edit/:id", "destination": "/edit/:id" },
-        { "source": "/(.*)", "destination": "/" }
-    ]
+    "rewrites": [{ "source": "/(.*)", "destination": "/" }]
 }
